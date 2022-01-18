@@ -2,4 +2,6 @@ import './css/style.css';
 
 import './js/app';
 
-// TODO: write your code in app.js
+import { renderDesk,renderIntervalDesk } from './js/app';
+
+renderIntervalDesk(1000)
